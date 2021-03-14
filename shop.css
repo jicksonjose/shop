@@ -1,0 +1,159 @@
+body {
+    margin:0;
+    background-image:url(images/bg2.jpg);
+    
+
+}
+#div{
+    height:80%;
+    width:80%;
+    background-color: red;
+    
+}
+
+
+
+/*heading*/
+
+#heading{
+    color: rgb(246, 245, 245);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px rgb(4, 4, 4);
+    font-size:30PX;
+}
+.paragraph1{
+    color: rgb(251, 255, 20);
+    font-size: 25px;
+
+}
+
+
+.HR{
+    border: 1PX SOLID rgb(255, 255, 255);
+}
+
+
+
+
+
+/*middle line paragraph*/
+
+.explain{
+    color: beige;
+}
+.middle-paragraph{
+    color:white;
+
+}
+
+/*gallery*/
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 5px 6px;
+    float: left;
+    width: 15.99999%;
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .responsive {
+      width: 49.99999%;
+      margin:6px ;
+    }
+  }
+  
+  @media only screen and (max-width: 200px) {
+    .responsive {
+      width: 80%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#image-description{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size:10px;
+}
+
+
+
+/*contacts*/
+
+
+
+#contacts-heading{
+    color:white;
+    font-size:55px;
+    
+}
+
+.address{
+  color:white;
+
+}
+.whatsapp{
+  color: rgb(71, 250, 0);
+}
+.number{
+  color:white
+}
+
+.number{
+  color: white;
+}
+.phone{
+  color: skyblue
+}
+.mail{
+  color:rgb(177, 2, 2)
+}
+
+
+/*gallery*/
+
+
+#middle-img{
+  height:auto;
+  width:100%;
+  align-items: center;
+}
+
+div.gallery{
+  margin:20px;
+  float: left;
+  width:20%;
+}
+@media (max-width:952px){
+  div.gallery{
+    margin:20px;
+    float: left;
+    width:100%;
+  }
+}

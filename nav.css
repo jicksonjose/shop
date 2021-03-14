@@ -1,0 +1,104 @@
+body {
+    font-family: "Lato", sans-serif;
+
+  }
+  
+/*navbar*/
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 251, 251);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-family: monospace;
+    
+    
+  }
+  
+  a:hover,a.active
+    {
+      background:rgb(15, 77, 0);
+      color:rgb(255, 255, 255);
+      transition: 0.5s;
+    }
+
+
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .bar{
+    margin-left: 25px;
+    padding-top: 61px;
+    cursor: pointer;
+    color: white;
+    margin-top: 53px;
+    font-size: 46px;
+}
+
+
+  /*background*/
+
+
+  .wall{
+    background: url(image/herbs-spices-941858854-780x520.jpg)no-repeat;
+    background-position:top;
+    background-size: cover;
+    height:CALC(100VH);
+    
+    
+  }
+  .wallabout{
+    background: url(image/background.jpg)no-repeat;
+    background-position:top;
+    background-size: cover;
+    height:CALC(100VH);
+    
+
+  }
+
+.logo-png{
+  height: 107px;
+  width: 144px;
+  position: absolute;
+  margin-left: 70%;
+}
+.logo-png2{
+  height: 107px;
+  width: 132px;
+  position: absolute;
+  margin-right: 50px;
+}
+@media (max-width:952px){
+  .logo-png{
+    display: none;
+  }
+  .logo-png2{
+   display: none;
+  }
+
+}
