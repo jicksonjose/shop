@@ -157,3 +157,37 @@ color: skyblue
 .mail{
 color:rgb(177, 2, 2)
 }
+
+
+/*whatsapp*/
+
+.whatsapp{
+  position: fixed;
+  right:0px;
+  top:65%;  
+}
+.whatsapp h5{
+         color:white;
+         border-radius: 20px;
+         background: rgb(7, 184, 7);
+         padding: 12px;
+}
+.whatsapplogo{
+    height:50px;
+    width:50px
+}
+@media(max-width:952px){
+    .whatsapp{
+        position: fixed;
+        right:0px;
+        top:80%;  
+      }
+      .whatsapp h5{
+               color:white;
+               background: rgb(7, 184, 7);
+               padding: 12px;
+               border-radius: 20px;
+               margin: 0 18px 0 0;
+      }
+
+}
