@@ -1,0 +1,594 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+/*header*/
+
+.header{
+    background-color: aqua;
+    height:100px;
+    width:100%;  
+}
+.logo{
+    height: 122px;
+    width: 250px;
+    margin: 0px 0 -11px 65px;
+     
+                                                                                                                                                                                                                                                                                                                        
+}
+
+/*menus*/
+ul{
+   display: block;
+   float: right;
+   
+  
+}
+ul li{
+    display: inline-flex;
+    padding: 8px 25px;
+    
+}
+ul li a{
+    display: inline-block;
+    font-size: 13px;
+    padding: 4px 5px;
+    color: rgb(12, 12, 12);
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: bolder;
+    
+}
+.nav-menu{
+    margin:-86px 0 0 0;  
+}
+a.active:hover{
+    color: rgba(4, 107, 38, 0.726);
+}
+a.active:visited{
+    color:green;
+}
+
+#wall{
+    background-image: url("images/1111\ \(43\).jpg");
+    background-position:center;
+    background-size: cover;
+    width:100%;
+    height: 100px;
+    position:absolute;
+}
+
+
+
+.checkbtn{
+    color: #585858;
+    font-size: 25px;
+    float: right;
+    padding: 24px -12px;
+    margin-left: 55px;
+    line-height: 104px;
+    display: none ;
+    
+   
+}
+#check{
+    display: none;
+}
+@media(max-width:952px){
+	.checkbtn{
+		display: block;
+        margin: -97px 20px 0 6px;
+        font-size: 30px;
+       
+    
+	}
+	ul{
+        position: fixed;
+        width:100%;
+        height: 100vh;
+        top:98px;
+        right:-100%;
+        text-align: center;
+        background: #a9abae;
+        text-decoration: none;
+        z-index:9999;
+        
+       
+        
+    }
+
+     ul li{
+         display: block;
+         text-decoration: none;
+         
+
+    }
+    ul li a{
+        font-size: 20px;
+        list-style: none;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 0 18px 0 0;
+       
+    }
+   #icons{
+       display:contents
+   }
+    
+    #check:checked~ul{
+        right: 0px;
+        top: 216px;
+    }
+	
+
+}
+/*parcel-button*/
+.parcel{
+    padding:13px 0 0 0;
+    font-size: 20px;
+    color: yellow;
+}
+
+
+
+/*dropdown -list*/
+#btn{
+    width:40%;
+    margin-left: 214px;
+}
+.dropdown-menu-info{
+    height:350px;
+    width:200px;
+    line-height:1px;
+    
+}
+.dropdown-item{
+    font-size: small;
+
+}
+.dropdown-item-active{
+    color: rgb(216, 235, 250);
+    padding-left: 15px;
+}
+
+
+/*spice-list-buttons*/
+#spice-btn{
+    width:180px;
+    border: 1px solid grey;
+    border-radius: 13px;
+    height:30px;
+    margin: 5px 0 0 13px;
+    padding: 1px 1px 1px 1px;
+}
+#spice-btn-active{
+    width:180px;
+    border: 1px solid grey;
+    border-radius: 13px;
+    height:30px;
+    margin: 5px 0px 0 13px;
+    background-color:rgb(86, 146, 202)
+
+}
+.spice-name{
+    font-size: 18px;
+    color:rgb(14, 0, 206)
+}
+.spice-name:hover{
+    background-color: #4c77af;
+    color:white;
+  
+}
+.spice-name-active{
+    font-size: 18px;
+    color:rgb(255, 255, 255)
+}
+
+
+
+
+@media(max-width:850px){
+    .dropdown-menu-dark{
+        height: 520px;
+        width:80%;
+        line-height: 1px;
+        font-size: 50px;
+    }
+    #btn{
+      width:95%;
+      margin: 0 0 0 10px;
+    }
+    .dropdown-item{
+        font-size: small;
+    
+    }
+    #spice-btn{
+        width:78px;
+        border: 1px solid grey;
+        border-radius: 13px;
+        height:25px;
+        margin: 0px 7px 0 0px;
+        
+    }
+    #spice-btn-active{
+        width:78px;
+        border: 1px solid grey;
+        border-radius: 13px;
+        height:25px;
+        margin: 0px 7px 0 0px;
+        background-color:rgb(86, 146, 202)
+
+    }
+    .spice-name{
+        font-size: 9px;
+        color:rgb(14, 0, 206)
+    }
+    .spice-name-active{
+        font-size: 9px;
+        color:rgb(240, 240, 240)
+    }
+    
+}
+
+
+
+  
+/*CARDS*/
+
+.card{
+    height:240px;
+    width: 200px;
+   
+}
+#card{
+    height: 260px;
+    width: 182px;
+    margin: 15px 0 0 30px;
+}
+
+@media(max-width:952px){
+    #card{
+        height: 230px;
+        width: 164px;
+        margin: 15px 0 0 16px;
+    }
+    .card{
+        height:240px;
+        width: 170px;
+       
+    }
+    #card-img-top{
+        height: 160px;
+        width: 180px;
+        margin: -16px 9px -7px -14px;
+    }
+  
+}
+
+    /*card -images/star/item-name/price*/
+#card-img-top{
+    height: 160px;
+    width: 162px;
+    margin: -16px 9px -7px -19px;
+}
+.star {
+    font-size: 8px;
+    color: gold;
+    margin: -5px -22px 5px;
+}
+.item-name{
+    margin: 0 -16px 5px -20px;
+    font-size: 13px;
+
+}
+.price{
+    font-size: smaller;
+    margin: 0 -16px 5px -20px
+}
+
+/*Single-Items*/
+#single-card{
+    width: 500px;
+    height: 500px;
+}
+
+#single-item-card{
+   width:400px;
+   height: 450px;
+   
+}
+@media(max-width:952px){
+    #single-card{
+        width: 500px;
+        height: 500px;
+        margin: 0 0  0 -8px ;
+    }
+    
+    #single-item-card{
+        width:350px;
+        height:410px;
+        
+     }
+
+    #single-item-img{
+        width:300px;
+        height: 380px;
+     }
+
+}
+
+
+/*next-previos-buttons*/
+.pagination {
+    display: inline-block;
+    margin: 3px 0 0 80%;
+    padding-top: 2px;
+  }
+  
+  .pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.hr1{
+    width:90%;  
+    margin-left: 40px; 
+}
+@media(max-width:750px){
+    .pagination {
+        display: inline-block;
+        margin: 0px 0 0 40%;
+        padding-top: 2px;
+      }
+      
+      .pagination a {
+        color: black;
+        margin-top: 31px;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+      }
+      
+     .hr1{
+         width:90%; 
+         margin-left: 20px;  
+        }
+
+}
+
+/*Contacts-Page*/
+
+.contact-heading{
+    font-size:xx-large;
+    color:#a9abae;
+
+}
+.phone{
+    color:black;
+}
+.map-iframe{
+    width:100%;
+    height:600px
+}
+
+/*FOOTTER*/
+
+@media(max-width:952){
+    .hr{
+        margin-top:3px;
+        padding-top: 3px;
+    }
+}
+
+/*whatsapp*/
+
+.whatsapp{
+  position: fixed;
+  right:0px;
+  top:65%;  
+}
+.whatsapp h5{
+         color:white;
+         border-radius: 20px;
+         background: rgb(7, 184, 7);
+         padding: 12px;
+}
+.whatsapplogo{
+    height:50px;
+    width:50px
+}
+@media(max-width:952px){
+    .whatsapp{
+        position: fixed;
+        right:0px;
+        top:80%;  
+      }
+      .whatsapp h5{
+               color:white;
+               background: rgb(7, 184, 7);
+               padding: 12px;
+               border-radius: 20px;
+               margin: 0 18px 0 0;
+      }
+
+}
+
+.about-product {
+    margin:-17px 0 0 0;
+}
+
+
+
+
+
+/*MENU - BUTTON*/
+#menu-icon{
+    font-size: 21px;
+    padding: 0 0 0 2px;
+
+}
+#menu-button{
+    height: 50px;
+    margin: 5px 0 25px 0px;
+   box-shadow: inset 1px 1PX 12PX 0PX;;
+    color: rgb(0, 0, 0);
+    padding: 4px 25px 27px 26px;
+    font-size: 27px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    font-family: monospace;
+    
+}
+#menu-div{
+    padding: 5px 0 32px 140px;
+}
+.menu-items{
+    margin: 13px 0 0 46px;
+    padding: 4px 27px 9px 30px;
+    border: none; 
+    border-radius: 12px;
+    background: darkgray;
+    font-size: 18px;
+    color: rgb(8, 8, 8);
+    font-family: monospace;
+    font-weight: bold;
+
+
+}
+.menu-items:hover{
+    color: #882599;
+    box-shadow: 0 2px 1px 0;
+    background-color: yellowgreen;
+  
+}
+.menu-items-active{
+    margin: 13px 0 0 46px;
+    padding: 4px 27px 9px 30px;
+    border: none; 
+    border-radius: 12px;
+    width:156px;
+    color: rgb(19, 95, 0);
+    font-family: monospace;
+    font-weight: bold;
+    color: #880094;
+    box-shadow: 0 2px 1px 0;
+    font-size: 16px;
+    background: yellowgreen;
+}
+
+#spices-btn{
+    width:156px
+}
+#tea-btn{
+    width: 147px;
+}
+#coffee-btn{
+    width: 165px;
+}
+
+@media(max-width:952px){
+    #menu-icon{
+        font-size: 21px;
+        padding: 0 0 0 2px;
+    
+    }
+    #menu-button{
+        height: 50px;
+        margin: 5px 0 25px 0px;
+       box-shadow: inset 1px 1PX 12PX 0PX;;
+        color: rgb(0, 0, 0);
+        padding: 4px 25px 27px 26px;
+        font-size: 27px;
+        font-family: monospace;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+        font-family: monospace;
+        
+    }
+    #menu-div{
+        padding: 5px 0 32px 0px;
+    }
+    .menu-items{
+        margin: 13px 0 0 46px;
+        padding: 4px 27px 9px 30px;
+        border: none; 
+        border-radius: 12px;
+        font-size: 15px;
+        color: rgb(8, 8, 8);
+        font-family: monospace;
+        font-weight: bold;
+         height: 40px;
+         width: 155px;
+         background: darkgray;
+    
+    
+    }
+    .menu-items:hover{
+        color: #882599;
+        box-shadow: 0 2px 1px 0;
+        background-color: yellowgreen;
+      
+    }
+    .menu-items-active{
+        margin: 13px 0 0 46px;
+        padding: 4px 27px 9px 30px;
+        border: none; 
+        border-radius: 12px;
+        width:156px;
+        color: rgb(19, 95, 0);
+        font-family: monospace;
+        font-weight: bold;
+        color: #880094;
+        box-shadow: 0 2px 1px 0;
+        font-size: 18px;
+        background: yellowgreen;
+    }
+    
+    #spices-btn{
+        width:156px
+    }
+    #tea-btn{
+        width: 157px;
+    }
+    #coffee-btn{
+        width: 158px;
+        padding: 0 0 0 3px;
+        margin: 4px 0 0 42px;
+    }
+
+    .table-align-spicebtn{
+        margin: 0 0 0 0;
+    }
+    
+
+}
+
+/*read more button style*/
+#more {
+    display: none;
+}
+#myBtn{
+    color: rgb(17, 134, 180);
+    font-weight: bolder;
+    font-family: monospace;
+    
+}
+
+
+
+
+
+
+
