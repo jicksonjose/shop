@@ -498,7 +498,7 @@ a.active:visited{
         
     }
     #menu-div{
-        padding: 5px 0 32px 0px;
+        padding: 5px 0 32px 15px;
         margin: 0 0 0 -23px;
     }
     .menu-items{
@@ -535,6 +535,7 @@ a.active:visited{
         box-shadow: 0 2px 1px 0;
         font-size: 12px;
         background: yellowgreen;
+	height:40px
     }
     
     #spices-btn{
@@ -547,7 +548,7 @@ a.active:visited{
         width: 140px;
         padding: 0 0 0 3px;
         margin: 4px 0 0 30px;
-	height:30px
+	height:40px
     }
 
     .table-align-spicebtn{
